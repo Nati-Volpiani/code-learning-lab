@@ -58,7 +58,7 @@ python/api-testing/.venv/bin/python -m pip install requests
 python/api-testing/.venv/bin/python python/api-testing/first_request.py
 ```
 
-Internet access is required. [Manual exploration notes](python/api-testing/exploracion-manual.md) record observations about a successful response. The nonexistent-character scenario is still unfinished. The script currently has no assertions, request timeout, or error handling.
+Internet access is required. [Manual exploration notes](python/api-testing/manual-exploration.md) record observations about a successful response. The nonexistent-character scenario is still unfinished. The script currently has no assertions, request timeout, or error handling.
 
 ## JavaScript practice
 
