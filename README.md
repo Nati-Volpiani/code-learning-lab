@@ -85,6 +85,4 @@ Next improvements: distinguish completed exercises from error demonstrations and
 
 ## Learning sources and attribution
 
-The SQL guides originate from [python-sql-tutorial](https://github.com/fvgtekken/python-sql-tutorial), maintained by [fvgtekken](https://github.com/fvgtekken). Access to the source repository may be restricted.
-
-I brought the Python and SQL practice into this repository with its existing Git history. I copied the JavaScript files from practice branches of `lpt1-linux` without importing that repository's commit history. My practice builds on guided learning material; I distinguish that material from the exercises and adaptations I work on myself.
+This repository contains my solutions to the exercises I completed during guided practice, together with my practice code, SQL database snapshots, and diagrams. The original SQL learning guides were provided by Federico ([fvgtekken](https://github.com/fvgtekken)) through [python-sql-tutorial](https://github.com/fvgtekken/python-sql-tutorial).
