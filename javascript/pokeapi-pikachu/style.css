@@ -1,0 +1,22 @@
+body {
+  background-color: lightyellow;
+  font-family: Arial, sans-serif;
+  display: flex;
+  gap: 20px;
+}
+
+h2 {
+  text-transform: uppercase;
+    text-align: center;
+}
+
+.card {
+  border: 2px solid gray;
+  padding: 16px;
+  width: 180px;
+}
+
+img {
+  width: 150px;
+}
+
