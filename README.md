@@ -1,4 +1,4 @@
-# QA Learning Lab
+# Code Learning Lab
 
 I am Natalia Volpiani, a Junior QA Engineer. I use this repository to document my programming and database practice as I build foundations for API testing and future test automation.
 
@@ -33,11 +33,11 @@ The guides are in Spanish and use Spanish identifiers. The exported databases us
 Use a local PostgreSQL practice instance and a compatible `psql` client. The snapshots were exported with PostgreSQL and `pg_dump` 17.11. Run these commands from the repository root, with your PostgreSQL connection configured:
 
 ```bash
-createdb qa_learning_lab
-psql -X -v ON_ERROR_STOP=1 -d qa_learning_lab -f sql/01_normal_form.sql
-psql -X -v ON_ERROR_STOP=1 -d qa_learning_lab -f sql/02_normal_form.sql
-psql -X -v ON_ERROR_STOP=1 -d qa_learning_lab -f sql/03_normal_form.sql
-psql -X -v ON_ERROR_STOP=1 -d qa_learning_lab -f sql/04_normal_form.sql
+createdb code_learning_lab
+psql -X -v ON_ERROR_STOP=1 -d code_learning_lab -f sql/01_normal_form.sql
+psql -X -v ON_ERROR_STOP=1 -d code_learning_lab -f sql/02_normal_form.sql
+psql -X -v ON_ERROR_STOP=1 -d code_learning_lab -f sql/03_normal_form.sql
+psql -X -v ON_ERROR_STOP=1 -d code_learning_lab -f sql/04_normal_form.sql
 ```
 
 Use a new, empty database: the dumps create schemas `nf1` through `nf4` and are not designed for repeated imports into those existing schemas.
